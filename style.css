@@ -31,12 +31,17 @@ nav {
 
 nav .logo {
   position: relative;
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 77%;
+  background-position: left;
   font-size: 2em;
-  color: white;
+  color: #ffffff00;
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 1px;
+  margin-top: 20px;
 }
 
 nav .navbar {
