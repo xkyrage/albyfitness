@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "overpass", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(/img/bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+nav .navbar {
+  position: relative;
+  display: flex;
+}
+
+nav .navbar li {
+  list-style: none;
+}
+
+nav .navbar li a {
+  display: inline-block;
+  color: white;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+nav .navbar li a:hover {
+  color: #12afc4;
+}
+
+.content {
+  max-width: 550px;
+}
+
+.content .contentbx h2 {
+  font-size: 4em;
+  color: white;
+  line-height: 1em;
+}
+
+.content .contentbx p {
+  font-size: 1.1em;
+  color: white;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.content .contentbx .button {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #03a9f4;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.social {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+}
+
+.social li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li a {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+}
+
+@media (max-width: 820px) {
+  nav {
+    padding: 15px 40px;
+  }
+
+  section {
+    padding: 40px;
+    background: url(/img/bg-center.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content .contentbx h2 {
+    font-size: 2.5em;
+  }
+
+  .content .contentbx p {
+    font-size: 1em;
+  }
+
+  nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav .navbar li a {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  nav .navbar li a:hover {
+    color: #03a9f4;
+  }
+
+  nav .navbar.active {
+    display: flex;
+  }
+
+  .hamburger {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(/img/hamburger.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    cursor: pointer;
+    z-index: 11;
+  }
+
+  .hamburger.active {
+    background: url(/img/close.png);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+  }
+}
