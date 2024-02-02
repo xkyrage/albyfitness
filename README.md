@@ -6,10 +6,11 @@ Responsive:
 ![image](https://github.com/xkyrage/albyfitness/assets/57317804/b09b84bb-532c-42a0-8460-c20ab6bbc07d)
 
 Adding Login Modal :
-![image](https://github.com/xkyrage/albyfitness/assets/57317804/ef6ac187-2347-4e6f-904d-b5223cdda0d9)
+![image](https://github.com/xkyrage/albyfitness/assets/57317804/aeb32a0b-f47f-486d-ad0d-e1cf5c30db42)
 
 Responsive :
-![image](https://github.com/xkyrage/albyfitness/assets/57317804/c8273906-b1a3-437b-966a-2b19eb2fce29)
+![image](https://github.com/xkyrage/albyfitness/assets/57317804/2696ad12-3783-4a5a-a6fa-c83e751bea7a)
+
 
 
 
