@@ -15,10 +15,6 @@ document.querySelector(".modal .close-icon").onclick = (e) => {
   e.preventDefault();
 };
 
-document.querySelector(".modal .price-discount-button").onclick = (e) => {
-  itemDetailModal.style.display = "none";
-  e.preventDefault();
-};
 // klik di luar modal
 window.onclick = (e) => {
   if (e.target === itemDetailModal) {
