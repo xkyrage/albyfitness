@@ -130,7 +130,6 @@ nav .navbar li a:hover {
   color: var(--bg);
   margin: 15% auto;
   padding: 1.2rem;
-  width: 80%;
   animation: animateModal 0.5s;
 }
 
@@ -148,7 +147,6 @@ nav .navbar li a:hover {
 
 .modal-container .close-icon {
   position: absolute;
-  right: 1rem;
 }
 
 .modal-content {
