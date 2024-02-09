@@ -5,7 +5,11 @@
   font-family: "overpass", sans-serif;
 }
 
-section {
+/* body {
+  height: 2000px;
+} */
+
+.home {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -300,6 +304,63 @@ body {
 .main-btn:hover {
   background-color: aqua;
 }
+
+/* 
+about */
+
+/* About Section */
+.about,
+.package,
+.contact,
+.testimony {
+  padding: 3rem 2% 0.4rem;
+  background: black;
+  color: white;
+  margin-bottom: 74px;
+}
+
+.about h2,
+.package h2,
+.contact h2,
+.testimony h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  pad: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+/* 
+media queries */
 
 @media (max-width: 540px) {
   .left .left-text h2 {
