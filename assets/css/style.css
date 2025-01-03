@@ -875,7 +875,7 @@ body {
 }
 
 .footer .footlogo {
-  background-image: url(/assets/images/logo.png);
+  background-image: url('logo.png');
   background-repeat: no-repeat;
   background-size: 88%;
   background-position: left;
@@ -1288,7 +1288,7 @@ body {
 
   .header.active .logo {
     color: hsl(0deg 0% 100% / 0%);
-    background-image: url(/assets/images/logo.png);
+    background-image: url('logo.png');
     background-repeat: no-repeat;
     background-size: 99%;
     background-position: left;
